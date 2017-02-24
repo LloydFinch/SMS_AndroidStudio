@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_delta"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/about_version"
+        style="@style/filter_view"
+        android:layout_width="match_parent" >
+
+        
+        <TextView
+            style="@style/about_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/about_version" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/c_dedede" />
+
+    <RelativeLayout
+        android:id="@+id/terms_of_service"
+        style="@style/filter_view"
+        android:layout_width="match_parent" >
+
+       
+        <TextView
+            style="@style/about_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/terms_of_service" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/c_dedede" />
+
+    <RelativeLayout
+        android:id="@+id/privacy_policy"
+        style="@style/filter_view"
+        android:layout_width="match_parent" >
+
+        
+        <TextView
+            style="@style/about_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/privacy_policy" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/c_dedede" />
+
+    <RelativeLayout
+        android:id="@+id/open_source_license"
+        style="@style/filter_view"
+        android:layout_width="match_parent" >
+
+        
+
+        <TextView
+            style="@style/about_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/open_source_license" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/c_dedede" />
+
+</LinearLayout>

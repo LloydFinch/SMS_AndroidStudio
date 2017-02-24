@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- for theme -->
+    <!-- <color name="theme_primary">#ff22a0c7</color> -->
+    <color name="theme_primary">#00aeef</color>
+    <color name="theme_primary_dark">#ff0f81a6</color>
+    <color name="theme_accent">#fff68603</color>
+
+    <!-- for RoutePlanner -->
+    <color name="route_card_back">#e5e5e5</color>
+    <color name="route_card_button_back">#fff68603</color>
+    <color name="blue_delta">#00aeef</color>
+    <color name="red_delta">#b52503</color>
+    <color name="white_delta">#ffffff</color>
+    <color name="gray_delta">#e5e5e5</color>
+ 
+    <color name="c_6fba2c">#6fba2c</color>
+    <color name="c_ff9d29">#ff9d29</color>
+    <color name="c_8f82bc">#8f82bc</color>
+    <color name="c_eb6877">#eb6877</color>
+    <color name="c_63c2ee">#63c2ee</color>
+    <color name="c_7f81d7">#7f81d7</color>
+
+     <color name="net_tag">#333333</color>
+    <color name="net_text">#666666</color>
+     <color name="light_black_delta">#bbbaba</color>
+    <color name="green_delta">#6eba2c</color>
+    <color name="orange_delta">#fe9e29</color>
+    <color name="h_gray_delta">#a0a0a0</color>
+    <color name="layout_gray_delta">#f2f2f2</color>
+    <color name="event_log_red_delta">#fe5b51</color>
+    <color name="event_log_emergency">#d40000</color>
+    <color name="event_log_fault">#ff8a00</color>
+    <color name="event_log_warn">#ffe400</color>
+    <color name="event_log_information">#6fba2c</color>
+    <color name="event_log_config">#00d4c3</color>
+    <color name="event_log_charger">#a0a0a0</color>
+    <color name="tab_color">#fff68603</color>
+    <color name="delta_black">#000000</color>
+    <color name="filt_dialog_check_tx">#666666</color>
+    <color name="filt_dialog_title">#333333</color>
+    
+    <color name="divider_color">#cfcfcf</color>
+    
+    <color name="transparent_white">#ddffffff</color>
+    <color name="transparent_black">#df000000</color>
+</resources>

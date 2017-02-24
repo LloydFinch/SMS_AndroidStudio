@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="bottom"
+              android:background="@android:color/transparent"
+              android:gravity="bottom"
+              android:orientation="vertical"
+              tools:context="com.delta.sms.ui.activity.ResponseTicketActivity"
+    >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right|top">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_shape"
+        android:orientation="vertical"
+        android:layout_marginTop="24dp"
+        android:padding="@dimen/item_map_popview_8dp"
+        >
+
+        <TextView
+            android:id="@+id/loc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/item_map_popview_8dp"
+            android:text="@string/charging_location_b"
+            android:textSize="18dp"
+            android:textColor="@android:color/darker_gray"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/item_map_popview_8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@+id/locLayout"
+            android:layout_marginTop="@dimen/item_map_popview_8dp"
+            >
+
+            <ImageView
+                style="@style/TicketIcon"
+                android:src="@drawable/ic_directions_black_24dp"
+                />
+
+            <TextView
+                android:id="@+id/distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/item_map_popview_16dp"
+                android:text="@string/copy_loc_info"
+                android:textColor="@android:color/darker_gray"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/item_map_popview_8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/item_map_popview_8dp"
+            android:id="@+id/copyLocInfo"
+            >
+
+            <ImageView
+                style="@style/TicketIcon"
+                android:src="@drawable/ic_content_copy_black_24dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/item_map_popview_16dp"
+                android:text="@string/copy_loc_info"
+                android:textColor="@android:color/darker_gray"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView 
+        android:id="@+id/imgIntentToLocInfo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="@dimen/event_log_marging_8dp"
+    android:src="@drawable/ic_location_info"/>
+     </RelativeLayout>
+</LinearLayout>

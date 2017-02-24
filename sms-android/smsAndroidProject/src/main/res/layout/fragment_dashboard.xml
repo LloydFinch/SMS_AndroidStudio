@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/white"
+    android:padding="@dimen/dimen_1080_10dp"
+    >
+  
+<LinearLayout 
+    style="@style/dashboard_ll"
+    >
+    <TextView 
+        android:id="@+id/tv_dashboard_charge_function"
+        android:drawableBottom="@drawable/ic_charge"
+        android:text = "@string/dashboard_charge_func"
+        style="@style/dashboard_tv"
+        android:background="#6fba2c"
+        android:paddingBottom="@dimen/dimen_1080_14dp"
+        android:textAllCaps="false"
+        />
+    <include layout="@layout/line_vertical"/>
+     <TextView 
+        android:id="@+id/tv_dashboard_map"
+        android:drawableBottom="@drawable/ic_map_dashboard"
+        android:text = "@string/dashboard_map"
+        style="@style/dashboard_tv"
+        android:background="#ff9d29"
+        android:paddingBottom="@dimen/dimen_1080_4dp"
+        />
+    
+</LinearLayout>
+<include layout="@layout/line_horizontal"/>
+<LinearLayout 
+    style="@style/dashboard_ll"
+    >
+   <TextView 
+        android:id="@+id/tv_dashboard_network_setting"
+        android:drawableBottom="@drawable/ic_netsetting"
+        android:text = "@string/dashboard_network_setting"
+        style="@style/dashboard_tv"
+        android:background="#eb6877"
+        android:paddingBottom="@dimen/dimen_1080_7dp"
+        />
+     <include layout="@layout/line_vertical"/>
+     <TextView 
+        android:id="@+id/tv_dashboard_logout"
+        android:drawableBottom="@drawable/ic_logout"
+        android:text = "@string/dashboard_logout"
+        style="@style/dashboard_tv"
+        android:background="#63c2ee"
+        android:paddingBottom="0dp"
+        />
+    
+</LinearLayout>
+<include layout="@layout/line_horizontal"/>
+<LinearLayout 
+    style="@style/dashboard_ll"
+    >
+     <TextView 
+        android:id="@+id/tv_dashboard_settings"
+        android:drawableBottom="@drawable/ic_setting"
+        android:text = "@string/dashboard_settings"
+        style="@style/dashboard_tv"
+        android:background="#7f81d7"
+        android:paddingBottom="@dimen/dimen_1080_20dp"
+        />
+     <include layout="@layout/line_vertical"/>
+     
+	 <TextView 
+        android:id="@+id/tv_dashboard_route_planner"
+        android:drawableBottom="@drawable/ic_routeplan"
+        android:text = "@string/dashboard_route_planner"
+        style="@style/dashboard_tv"
+        android:background="#8f82bc"
+        android:paddingBottom="@dimen/dimen_1080_18dp"
+        android:visibility="invisible"
+        />
+    
+</LinearLayout>
+</LinearLayout>

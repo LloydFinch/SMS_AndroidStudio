@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delta.smsandroidproject.view.fragment.SettingFragment" >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="@dimen/setting_padding_24dp"
+	        android:paddingRight="@dimen/setting_padding_24dp"
+	        android:gravity="center"
+	        android:orientation="horizontal">
+	        <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/net_work"/>
+	        <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="@dimen/setting_padding_8dp"
+		        android:orientation="vertical">
+	        	<TextView 
+	        	    android:layout_width="wrap_content"
+	        	    android:layout_height="wrap_content"
+	        	    android:layout_marginLeft="@dimen/select_network_margin_16dp"
+	        	    android:textStyle="bold"
+	        	    android:textSize="@dimen/setting_textsize_18sp"
+	        	    android:text="@string/setting_network"/>
+	        	<Spinner 
+	        	    android:id="@+id/spinnerNetWork"
+	        	    android:layout_width="match_parent"
+	        	    android:layout_height="@dimen/setting_height_48dp"
+	        	    android:gravity="left|center_vertical"
+	        	    android:spinnerMode="dialog"/>
+	        </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="@dimen/setting_padding_24dp"
+	        android:paddingRight="@dimen/setting_padding_24dp"
+	        android:gravity="center"
+	        android:orientation="horizontal">
+        <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/languague"/>
+	        <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="@dimen/setting_padding_8dp"
+		        android:orientation="vertical">
+	        	<TextView 
+	        	    android:layout_width="wrap_content"
+	        	    android:layout_height="wrap_content"
+	        	    android:layout_marginLeft="@dimen/select_network_margin_16dp"
+	        	    android:textStyle="bold"
+	        	    android:textSize="@dimen/setting_textsize_18sp"
+	        	    android:text="@string/setting_language"/>
+	        	<Spinner 
+	        	    android:id="@+id/spinnerLanguage"
+	        	    android:layout_width="match_parent"
+	        	    android:layout_height="@dimen/setting_height_48dp"
+	        	    android:gravity="left|center_vertical"
+	        	    android:spinnerMode="dialog"/>
+	        </LinearLayout>
+        </LinearLayout>
+     </LinearLayout>
+
+</FrameLayout>

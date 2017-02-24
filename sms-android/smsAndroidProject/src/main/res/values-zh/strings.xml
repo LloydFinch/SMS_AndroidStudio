@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SMS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">設定</string>
+    <string name="title_dash_board">儀表板</string>
+    <string name="title_charging_fuctions">充電功能表</string>
+    <string name="title_map">地圖</string>
+    <string name="title_route_planner">路徑規劃</string>
+    <string name="title_network_setting">充電網設定</string>
+    <string name="title_logout">登出</string>
+    <string name="title_settings">設定</string>
+
+    <!-- String for Dashboard -->
+
+    <string name="dashboard_charge_func">充電功能表</string>
+    <string name="dashboard_map">地圖</string>
+    <string name="dashboard_route_planner">路徑規劃</string>
+    <string name="dashboard_network_setting">充電網設定</string>
+    <string name="dashboard_logout">登出</string>
+    <string name="dashboard_settings">設定</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <!-- login -->
+    <string name="login">LOGIN</string>
+    <string name="password">Please enter password</string>
+    <string name="account">Please enter login ID</string>
+    <string name="remember_me">Remember me</string>
+    <string name="loading">Loading...</string>
+    <string name="title_route_planner_s">Service route planner</string>
+    <string name="title_dashborad">Dashboard</string>
+
+    <!-- String for RoutePlanner -->
+    <string name="results">Results</string>
+    <string name="route_tv_distance">Total distance</string>
+    <string name="route_tv_fare">Fare          </string>
+    <string name="route_tv_visit">Visiting sequence</string>
+    <string name="button_navi">Start navigation</string>
+    <string name="route_planner_service_des">Specify your origin and destination and tick the charging locations 
+        to stop by. And then tap the compass button to get the suggested routes.	</string>
+	<string name="route_tv_copyrights">Copyrights</string>
+	<string name="route_tv_warn">Warn</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+    <string name="route_tv_origin">Origin</string>
+    <string name="route_tv_des">Destination</string>
+    <string name="route_tv_waypoints">Waypoints</string>
+
+    <!-- map -->
+    <string name="maps_title">当前位置</string>
+    <string name="maps_words">Not specified - use device current location</string>
+    <string name="maps_word">Pinch to zoom and swipe navigate. Charging location with faulted are marked in red.Click to the markers for more detailed information about the location.</string>
+    <string name="choose_location">Choose a location</string>
+    <string name="chargig_location_map">Charging location map</string>
+    <string name="near_by_location">Nearby charging locations</string>
+    <string name="loc_away_from">KM away from current location</string>
+    <string name="copy_loc_info">Copy the location info to clipboard</string>
+
+    <!-- evet log -->
+    <string name="event_log_all">全部</string>
+    <string name="event_log_charger">CHARGER</string>
+    <string name="event_log_evse">EVSE</string>
+    <string name="event_log_config">Config</string>
+    <string name="event_log_event">Event</string>
+    <string name="event_log_occur">Occurrence</string>
+    <string name="event_log_clearance">Clearance</string>
+    <string name="event_log">Event log</string>
+
+    <!-- select network -->
+    <string name="network_content1">Please select a network from the dropdownlist.</string>
+    <string name="network_content2">You can change the network setting in the</string>
+    <string name="network_content3">Dashboard>Settings.</string>
+    <string name="network_next">ENTER NETWORK</string>
+    <string name="title_activity_select_network">Select charging network</string>
+    <string name="not_authorized">对不起，您没有被授权使用此服务在选定的网络。</string>
+<!-- setting -->
+<string name="setting_network">默认网络</string>
+<string name="setting_language">语言</string>
+<string name="select_network_company">公司</string>
+<string name="select_network_contact">联系人</string>
+<string name="select_network_address">地址</string>
+<string name="select_network_phone">電話</string>
+<string name="select_network_mobile">手機</string>
+<string name="select_network_mail">邮箱</string>
+<string name="settings_language_english">English</string>
+<string name="settings_language_cn">中文</string>
+
+<string name="encryption_error">加密发生错误</string>
+	<string name="decryption_error">解密发生错误</string>
+</resources>

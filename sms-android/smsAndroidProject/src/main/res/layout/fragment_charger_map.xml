@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delta.smsandroidproject.view.fragment.ChargerMapFragment" >
+
+    <!-- TODO: Update blank fragment layout -->
+	<com.google.android.gms.maps.MapView
+	    android:id="@+id/map"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"/>
+	
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    >
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="13dp"
+        android:textColor="#5e5d5d"
+        android:text="@string/maps_title"
+        android:textStyle="bold"
+        />
+    <TextView 
+        android:id="@+id/currentLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="13dp"
+        android:textColor="#5e5d5d"
+        android:text="@string/maps_words"
+        />
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="8dp"
+        android:background="#cdcdcd"/>
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginLeft="11dp"
+        android:textColor="#5e5d5d"
+        android:text="@string/maps_word"
+        />
+</LinearLayout>
+<LinearLayout 
+    android:id="@+id/locPopupview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:orientation="horizontal">
+    
+</LinearLayout>
+</FrameLayout>

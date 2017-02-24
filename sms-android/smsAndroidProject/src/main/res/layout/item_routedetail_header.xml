@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/white"  
+    >
+   
+		    <TextView
+				style="@style/routepaln_tv_tag"
+				android:text = "@string/route_tv_visit"
+				android:background="@android:color/white"      
+			    />
+		    
+		    <TextView
+			     android:id="@+id/routedetail_tv_visit"
+			     style="@style/routepaln_tv"
+			     android:gravity="left"
+			     android:background="@android:color/white"
+			     android:layout_marginBottom="@dimen/dimen_1080_5dp"
+			     />
+		    <include layout="@layout/line_horizontal_list"/>
+		    <TextView
+				style="@style/routepaln_tv_tag"
+				android:text = "@string/route_detail_tv_distance"
+				android:background="@android:color/white"     
+			    />
+		    
+		    <TextView
+			     android:id="@+id/routedetail_tv_distance"
+			     style="@style/routepaln_tv"
+			     android:gravity="left"
+			     android:background="@android:color/white" 
+			     android:layout_marginBottom="@dimen/dimen_1080_5dp"
+			     />
+		    <include layout="@layout/line_horizontal_list"/>
+		    <TextView
+				style="@style/routepaln_tv_tag"
+				android:text = "@string/route_tv_duration"  
+				android:background="@android:color/white"       
+			    />
+		    
+		    <TextView
+			     android:id="@+id/routedetail_tv_duration"
+			     style="@style/routepaln_tv"
+			     android:gravity="left"
+			     android:background="@android:color/white" 
+			     android:layout_marginBottom="@dimen/dimen_1080_5dp"
+			     />
+		    <include layout="@layout/line_horizontal_list"/>
+		      
+		    <TextView
+				style="@style/routepaln_tv_tag"
+				android:text = "@string/route_tv_instructions" 
+				android:background="@android:color/white"     
+			    />
+		    
+</LinearLayout>

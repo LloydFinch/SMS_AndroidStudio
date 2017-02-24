@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/commonlibv1/commonlibv1.iml" filepath="$PROJECT_DIR$/commonlibv1/commonlibv1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/emea-sms-android.iml" filepath="$PROJECT_DIR$/emea-sms-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/googleplayservices_lib/googleplayservices_lib.iml" filepath="$PROJECT_DIR$/googleplayservices_lib/googleplayservices_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smsAndroidProject/smsAndroidProject.iml" filepath="$PROJECT_DIR$/smsAndroidProject/smsAndroidProject.iml" />
+    </modules>
+  </component>
+</project>

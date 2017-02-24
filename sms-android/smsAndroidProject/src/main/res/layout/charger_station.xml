@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+<LinearLayout
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+
+    <!-- Charger name -->
+
+    <LinearLayout
+        android:id="@+id/lin_chargername"
+        style="@style/Charger_station_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            style="@style/Charger_Parent"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_station" />
+
+        <LinearLayout
+            style="@style/Charger_Parent2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/Charger_textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Location_name" />
+
+           
+
+            <TextView
+                android:id="@+id/charger_text1"
+                style="@style/Charger_textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+
+           
+
+        </LinearLayout>
+    </LinearLayout>
+     <!-- Phone numbers -->
+    <LinearLayout
+        android:id="@+id/lin_phone"
+        style="@style/Charger_station_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            style="@style/Charger_Parent"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_phone" />
+
+        <LinearLayout
+            style="@style/Charger_Parent2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/Charger_textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Phone_numbers" />
+
+
+            <TextView
+                android:id="@+id/phone_text1"
+                style="@style/Charger_textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+
+           
+
+        </LinearLayout>
+    </LinearLayout>
+     <!-- Mobile -->
+    <LinearLayout
+        android:id="@+id/lin_mobile"
+        style="@style/Charger_station_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            style="@style/Charger_Parent"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/mobile" />
+
+        <LinearLayout
+            style="@style/Charger_Parent2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/Charger_textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Mobile" />
+
+
+            <TextView
+                android:id="@+id/mobile_text1"
+                style="@style/Charger_textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+
+           
+
+        </LinearLayout>
+    </LinearLayout>
+    <!-- mail -->
+     <LinearLayout
+         android:id="@+id/lin_mail"
+        style="@style/Charger_station_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            style="@style/Charger_Parent"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/mail" />
+
+        <LinearLayout
+            style="@style/Charger_Parent2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/Charger_textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Mail" />
+
+
+            <TextView
+                android:id="@+id/cs_mail"
+                style="@style/Charger_textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Addresss -->
+
+    <LinearLayout
+        android:id="@+id/lin_adress"
+        style="@style/Charger_station_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            style="@style/Charger_Parent"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_navi" />
+
+        <LinearLayout
+            style="@style/Charger_Parent2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/Charger_textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Address" />
+
+
+            <TextView
+                android:id="@+id/address_text1"
+                style="@style/Charger_textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <!-- coordinates -->
+    <LinearLayout
+         android:id="@+id/lin_coordinates"
+        style="@style/Charger_station_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            style="@style/Charger_Parent"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_description" />
+
+        <LinearLayout
+            style="@style/Charger_Parent2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/Charger_textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Coordinates" />
+
+
+            <TextView
+                android:id="@+id/cs_coordinates"
+                style="@style/Charger_textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Descripion -->
+
+    <LinearLayout
+        android:id="@+id/lin_note"
+        style="@style/Charger_station_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            style="@style/Charger_Parent"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/beizhu" />
+
+        <LinearLayout
+            style="@style/Charger_Parent2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/Charger_textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Note" />
+
+
+            <TextView
+                android:id="@+id/descripion_text1"
+                style="@style/Charger_textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+    
+    
+    
+
+<View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/c_666666" />
+<LinearLayout 
+    android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+    <TextView
+       android:layout_marginLeft="15dp"
+        style="@style/Charger_station"
+        android:layout_width="wrap_content"
+        android:textColor="@color/c_666666"
+        android:layout_height="wrap_content"
+        android:text="@string/charger_info" />
+    
+       
+</LinearLayout>
+    
+    
+</LinearLayout>
+
+</LinearLayout>

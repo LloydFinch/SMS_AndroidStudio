@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- Dashboard function items -->
+    <!--    The menu to dashboard page -->
+<!--     <string name="title_dashborad">Dashboard</string> -->
+    <string name="title_dashborad">ダッシュボード</string>
+	<!-- 	The menu to Services page -->
+<!--     <string name="dashboard_charge_func">Services</string> -->
+    <string name="dashboard_charge_func">サービス</string>
+	<!-- 	The menu to Map page -->
+<!--     <string name="dashboard_map">Map</string> -->
+    <string name="dashboard_map">マップ</string>
+	<!-- 	The menu to Route planner page -->
+<!--     <string name="dashboard_route_planner">Route planner</string> -->
+    <string name="dashboard_route_planner">ルートプランナー</string>
+	<!-- 	The menu to switch current network -->
+<!--     <string name="dashboard_network_setting">Switch network</string> -->
+    <string name="dashboard_network_setting">ネットワーク変更</string>
+	<!-- 	The menu to log out -->
+<!--     <string name="dashboard_logout">Logout</string> -->
+    <string name="dashboard_logout">ログアウト</string>
+	<!-- 	The menu to Settings page -->
+<!--     <string name="dashboard_settings">Settings</string> -->
+    <string name="dashboard_settings">セッティング</string>
+<!-- End of Dashboard function items -->
+
+
+<!-- Login feature -->
+	<!-- 	Text for login button-->
+<!--     <string name="login">LOGIN</string> -->
+    <string name="login">ログイン</string>
+    <!-- 	The hint message for login page -->
+<!--     <string name="password">Please enter password</string> -->
+    <string name="password">パスワードを入力して下さい</string>
+    <!-- 	The hint message for login page -->
+<!--     <string name="account">Please enter uid</string> -->
+    <string name="account">uidを入力して下さい</string>
+	<!-- 	Tick to remember current user name and password -->
+<!--     <string name="remember_me">Remember me</string> -->
+    <string name="remember_me">保存する</string>
+	<!--    Loading message for all ui page-->
+<!--     <string name="loading">Loading...</string> -->
+    <string name="loading">読込中...</string>
+<!-- End of Login feature -->
+
+
+<!-- Route Planner feature -->
+	<!-- 	A prompt text used in a label to show the results -->
+<!--     <string name="results">Results</string> -->
+    <string name="results">結果</string>
+	<!-- 	A prompt text used in a label to show the total distance -->
+<!--     <string name="route_tv_distance">Total distance</string> -->
+    <string name="route_tv_distance">総距離</string>
+	<!-- 	A prompt text used in a label to show the distance -->
+<!--     <string name="route_detail_tv_distance">Distance</string> -->
+    <string name="route_detail_tv_distance">距離</string>
+	<!-- 	A prompt text used in a label to show the fare, and there need 10 spaces after the word "Fare" -->
+<!--     <string name="route_tv_fare">Fare          </string> -->
+    <string name="route_tv_fare">料金          </string>
+	<!-- 	A prompt text used in a label to show the visiting sequence -->
+<!--     <string name="route_tv_visit">Visiting sequence</string> -->
+    <string name="route_tv_visit">訪問順序</string>
+	<!-- 	A prompt text used in a label to show the duration -->
+<!--     <string name="route_tv_duration">Duration</string> -->
+    <string name="route_tv_duration">継続時間</string>
+	<!-- 	A prompt text used in a button to enter navigation -->
+<!--     <string name="button_navi">Start navigation</string> -->
+    <string name="button_navi">ナビゲーション開始</string>
+	<!--    The page title for route details page -->
+<!--     <string name="title_route_detail">Route details</string> -->
+    <string name="title_route_detail">ルート詳細</string>
+    <!--	The page title for route planner page -->
+<!--     <string name="title_route_planner_s">Service route planner</string> -->
+    <string name="title_route_planner_s">ルートプランナーサービス</string>
+	<!-- 	A prompt text used in a label to help user to operate the application -->
+<!--     <string name="route_planner_service_des">Specify your origin and destination and tick the charging locations  -->
+<!--         to stop by. And then tap the compass button to get the suggested routes. -->
+<!-- 	</string> -->
+    <string name="route_planner_service_des">あなたの出発地と目的地を指定し、充電場所をチェック
+        によって停止します。そして、提案したルートを取得するにはコンパスボタンをタップします.
+	</string>
+
+	<!-- 	Text label to show the copyright of route result -->
+<!--     <string name="route_tv_copyrights">Copyrights</string> -->
+	<!-- 	Text label to show the warning message -->
+<!--     <string name="route_tv_warn">Warn</string> -->
+    <string name="route_tv_warn">警告</string>
+	<!-- 	Text label to show the start point -->
+<!--     <string name="route_tv_origin">Origin</string> -->
+    <string name="route_tv_origin">出発点</string>
+	<!-- 	Text label to show the end point -->
+<!--     <string name="route_tv_des">Destination</string> -->
+    <string name="route_tv_des">行き先</string>
+	<!-- 	Text label to show the waypoints -->
+<!--     <string name="route_tv_waypoints">Waypoints</string> -->
+    <string name="route_tv_waypoints">通過点</string>
+	<!-- 	Text label to show the detailed route instructions -->
+<!-- 	<string name="route_tv_instructions">Instructions</string> -->
+	<string name="route_tv_instructions">説明</string>
+<!-- End of Route Planner feature -->
+   
+ 
+<!-- String for Charging actions -->
+	<!-- 	the action to reboot a charger -->
+<!--     <string name="reboot">Reboot charger</string> -->
+    <string name="reboot">チャージャー再起動</string>
+	<!-- 	the action to reset a charger -->
+<!--     <string name="reset">Reset charger</string> -->
+    <string name="reset">チャージャーリセット</string>
+	<!-- 	the action to disable a charger -->
+<!--     <string name="disable">Disable charger</string> -->
+    <string name="disable">チャージャー不能</string>
+	<!-- 	the action to enable a charger -->
+<!--     <string name="enable">Enable charger</string> -->
+    <string name="enable">チャージャー可能</string>
+	<!-- 	the action to initiate firmware for the charger -->
+<!--     <string name="firmware">Initiate firmware update</string> -->
+    <string name="firmware">ファームウェアアップロード開始</string>
+	<!-- 	the action to initiate whitelist for the charger -->
+<!--     <string name="whitelist">Initiate whitelist update</string> -->
+    <string name="whitelist">ホワイトリストアップデート開始</string>
+	<!-- 	the action to select a firmware version -->
+<!--     <string name="firmware_title">Choose the firmware version</string> -->
+    <string name="firmware_title">ファームウェアバージョン選択</string>
+	<!-- 	text label to show the current firmware version -->
+<!--     <string name="version">(Current version: %s)</string> -->
+    <string name="version">(現在のバージョン: %s)</string>
+	<!-- 	an action to confirm the recent behavior -->
+<!--     <string name="ok">OK</string> -->
+	<!-- 	an action to cancel the recent behavior -->
+<!--     <string name="cancel">CANCEL</string> -->
+    <string name="cancel">キャンセル</string>
+	<!-- 	an action to perform the firmware update -->
+<!--     <string name="update">UPDATE</string> -->
+    <string name="update">アップデート</string>
+	<!-- 	the action to initiate whitelist update for the charger -->
+<!--     <string name="whitelist_title">Initiate whitelist update</string> -->
+    <string name="whitelist_title">ホワイトリストアップデート開始</string>
+	<!-- 	descriptions for whitelist update -->
+<!--     <string name="whitelist_content">Click update to sync the latest whitelist</string> -->
+    <string name="whitelist_content">最新のホワイトリストを同期するために、更新をクリックします</string>
+	<!-- 	the action to start a charging session-->
+<!--     <string name="start_charge">Start charging session</string> -->
+    <string name="start_charge">チャージングセッション開始</string>
+	<!-- 	the action to stop a charging session-->
+<!--     <string name="stop_charge">Stop charging session</string> -->
+    <string name="stop_charge">チャージングセッション停止</string>
+	<!-- 	the action to release a lock -->
+<!--     <string name="release_lock">Release lock</string> -->
+    <string name="release_lock">リリースロック</string>
+	<!-- 	the action to make the EVSE enable-->
+<!--     <string name="enable_evse">Enable EVSE</string> -->
+    <string name="enable_evse">EV充電スタンド可能</string>
+	<!-- 	the action to make the EVSE disable-->
+<!--     <string name="disable_evse">Disable EVSE</string> -->
+    <string name="disable_evse">EV充電スタンド不能</string>
+<!-- End of Charging actions-->
+
+
+<!-- Map -->
+	<!--    display current location for map page-->
+<!--     <string name="maps_title">Current location</string> -->
+    <string name="maps_title">現在地</string>
+	<!--    no charging location specified, use the device's location info for map -->
+<!--     <string name="maps_words">Not specified - use device current location</string> -->
+    <string name="maps_words">指定なし - 使用デバイスの現在位置</string>
+	<!--    Feature description and instructions for the Map page. -->
+<!--     <string name="maps_word">Pinch to zoom and swipe to navigate. Charging locations with faulted chargers are marked in red. Click on the markers for more detailed information about the location.</string> -->
+    <string name="maps_word">ピンチで拡大、ナビゲートするためにスワイプします. 障害の発生しているチャージャーのある場所は赤でマークされています. その場所の詳細情報を参照するにはマーカーをクリックします.</string>
+    <!-- 	Text label to hint the user to choose a charging location -->
+<!--     <string name="choose_location">Choose a location</string> -->
+    <string name="choose_location">場所選択</string>
+    <!-- 	The title for map page -->
+<!--     <string name="chargig_location_map">Charging location map</string> -->
+    <string name="chargig_location_map">充電場所マップ</string>
+    <!-- 	The title for map page -->
+<!--     <string name="near_by_location">Nearby charging locations</string> -->
+    <string name="near_by_location">近くの充電場所</string>
+    <!-- 	The distance from current location for map page -->
+<!--     <string name="loc_away_from">KM away from current location</string> -->
+    <string name="loc_away_from">kmの距離、現在地から</string>
+    <!-- 	copy the location info to clipboard -->
+<!--     <string name="copy_loc_info">Copy the location info to clipboard</string> -->
+    <string name="copy_loc_info">クリップボードに場所情報をコピー</string>
+<!-- End of Map -->
+
+
+<!-- Event log -->
+	<!--    TAB name to check all event logs -->
+<!--     <string name="event_log_all">ALL</string> -->
+    <string name="event_log_all">全て</string>
+    <!--    TAB name to check charger event logs -->
+<!--     <string name="event_log_charger">CHARGER</string> -->
+    <string name="event_log_charger">チャージャー</string>
+    <!--    TAB name to check EVSE event logs -->
+<!--     <string name="event_log_evse">&#160;&#160;&#160;EVSE</string> -->
+    <string name="event_log_evse">&#160;&#160;&#160;EV充電ステーション</string>
+    <!--    Event type name for configuration events -->
+<!--     <string name="event_log_config">CONFIG</string> -->
+    <string name="event_log_config">コンフィグ</string>
+    <!--    Event type name for information events -->
+<!--     <string name="event_log_info">INFO</string> -->
+    <string name="event_log_info">インフォ</string>
+    <!--    Text label for the event name -->
+<!--     <string name="event_log_event">Event</string> -->
+    <string name="event_log_event">イベント</string>
+    <!--    Text label for the event occurrence time -->
+<!--     <string name="event_log_occur">Occurrence</string> -->
+	<!--    Text label for the event clearance time  -->
+<!--     <string name="event_log_clearance">Clearance</string> -->
+    <!--    Text label for the charger id  -->
+<!--     <string name="event_log_chargerId">Charger Id</string> -->
+    <string name="event_log_chargerId">チャージャーId</string>
+    <!--    Text label for the evse id  -->
+<!-- 	<string name="event_log_evseId">EvseId</string> -->
+	<string name="event_log_evseId">EV充電ステーションId</string>
+	<!-- 	No data of event log for event log page-->
+<!-- 	<string name="no_event_found">No event log found</string> -->
+	<string name="no_event_found">ログイベントなし</string>
+<!-- End of Event log -->
+
+	
+<!-- Select network & Network switch-->
+	<!--    description for select network -->
+<!--     <string name="network_content">Please select a charging network from the dropdown list.  -->
+<!--         You can change the charging network in Dashboard  -->
+<!--         > Switch network, or specify the preferred network in Dashboard  -->
+<!--         > Settings. -->
+<!--     </string> -->
+    <string name="network_content">ドロップダウンリストから、充電ネットワークを選択して下さい. 
+        ダッシュボードの充電ネットワークを変更できます 
+        > ダッシュボードの優先ねとワークを指定または切換えます 
+        > セッティング.
+    </string>
+
+	<!--    The text label on the button to confirm entering the selected network -->
+    <string name="network_next">ネットワークに入ります</string>
+<!--     <string name="title_activity_select_network">Select charging network</string> -->
+    <string name="title_activity_select_network">充電ネットワーク選択</string>
+    <!-- 	The hint message of selecting network for login page -->
+<!--     <string name="select_network">Please select a network</string> -->
+    <string name="select_network">ネットワークを選択して下さい</string>
+    <!--    description of company for switch network page -->
+<!--     <string name="select_network_company">Company</string> -->
+    <string name="select_network_company">会社</string>
+    <!--    description of state for switch network page -->
+<!--     <string name="select_network_state">State</string> -->
+    <string name="select_network_state">都道府県</string>
+    <!--    description of contact for switch network page -->
+<!--     <string name="select_network_contact">Contact</string> -->
+    <string name="select_network_contact">連絡先</string>
+    <!--    description of address for switch network page -->
+<!--     <string name="select_network_address">Address</string> -->
+    <string name="select_network_address">住所</string>
+    <!--    description of phone for switch network page -->
+<!--     <string name="select_network_phone">Phone</string> -->
+    <string name="select_network_phone">電話</string>
+    <!--    description of mobile for switch network page -->
+<!--     <string name="select_network_mobile">Mobile</string> -->
+    <string name="select_network_mobile">モバイル</string>
+    <!--    description of mail for switch network page -->
+<!--     <string name="select_network_mail">Mail</string> -->
+    <string name="select_network_mail">メール</string>
+<!-- End of Select network & Network switch -->
+
+
+<!-- Settings -->
+	<!--    Preferred network for setting page -->
+<!--     <string name="setting_network">Preferred charging network</string> -->
+    <string name="setting_network">優先する充電ネットワーク</string>
+	<!--    Application language for setting page -->
+<!--     <string name="setting_language">Language</string> -->
+    <string name="setting_language">言語</string>
+    <!--    Language setting - English -->
+<!--     <string name="settings_language_english">English</string> -->
+    <string name="settings_language_english">英語</string>
+    <!--    Language setting - Chinese -->
+<!--     <string name="settings_language_cn">中文</string> -->
+    <string name="settings_language_cn">中国語</string>
+<!-- End of Settings -->
+
+
+<!-- Services feature -->
+    <!-- 	Services page to select the title of the Evse drop-down box -->
+<!--     <string name="EVSE">EVSE    </string> -->
+    <string name="EVSE">EV充電ステーション    </string>
+    <!-- 	Services page to select the title of the Charger drop-down box -->
+<!--     <string name="Charger">Charger </string> -->
+    <string name="Charger">チャージャー </string>
+    <!-- 	Services page to select the title of the Location drop-down box -->
+<!--     <string name="Location">Location</string> -->
+    <string name="Location">場所</string>
+    <!-- 	Event options for Services pages -->
+<!--     <string name="Event">Event </string> -->
+    <string name="Event">イベント </string>
+     <!-- 	Map options for Services pages -->
+<!--     <string name="Map">Map</string> -->
+    <string name="Map">マップ</string>
+     <!--  	Location info options for Services pages -->
+<!--     <string name="Info">Info</string> -->
+    <string name="Info">インフォ</string>
+     <!--  	Actions options for Services pages -->
+<!--     <string name="Actions">Actions</string> -->
+    <string name="Actions">アクション</string>
+    <!-- 	Location drop-down box tips for Services pages -->
+<!--     <string name="Select_Location">Please select the Location</string> -->
+    <string name="Select_Location">場所を選択して下さい</string>
+    <!-- 	Charger drop-down box tips for Services pages -->
+<!--     <string name="Select_Charger">Please select the Charger</string> -->
+    <string name="Select_Charger">チャージャーを選択して下さい</string>
+    <!-- 	EVSE drop-down box tips for Services pages-->
+<!--     <string name="Select_EVSE">Please select the EVSE</string> -->
+    <string name="Select_EVSE">EV充電ステーションを選択して下さい</string>
+    <!-- 	Tips of failure of network connection -->
+<!--     <string name="load_failed">Please check the network</string> -->
+    <string name="load_failed">ネットワークを確認して下さい</string>
+    <!-- 	Title of Location info page -->
+<!--     <string name="Location_Info">Location Info</string> -->
+    <string name="Location_Info">場所情報</string>
+    <!-- 	Did not fill in the "Location" reminder for Services pages-->
+<!--     <string name="no_location">Please fill in the Location</string> -->
+    <string name="no_location">場所を記入して下さい</string>
+    <!-- 	Did not fill in the "Charger" reminder for Services pages-->
+    <string name="no_charger">チャージャーをご記入下さい</string>
+<!-- End of Services feature -->
+
+
+<!-- Location info -->
+    <!-- 	Location name information for Location info page -->
+<!--     <string name="Location_name">Location name</string> -->
+    <string name="Location_name">場所名</string>
+    <!-- 	Phone numbers information for Location info page -->
+<!--     <string name="Phone_numbers">Phone numbers</string> -->
+    <string name="Phone_numbers">電話番号</string>
+    <!-- 	Mobile information for Location info page -->
+<!--     <string name="Mobile">Mobile</string> -->
+    <string name="Mobile">モバイル</string>
+    <!-- 	Mail information for Location info page -->
+<!--     <string name="Mail">Mail</string> -->
+    <string name="Mail">メール</string>
+    <!-- 	Address information for Location info page -->
+<!--     <string name="Address">Address</string> -->
+    <string name="Address">住所</string>
+    <!--	Coordinates information for Location info page -->
+<!--     <string name="Coordinates">Coordinates</string> -->
+    <string name="Coordinates">座標</string>
+    <!-- 	Note information for Location info page -->
+<!--     <string name="Note">Note</string> -->
+    <string name="Note">備考</string>
+    <!--  	Whether to upload photos for Location info page-->
+<!--     <string name="Sure_to_upload_photo">Upload this photo?</string> -->
+    <string name="Sure_to_upload_photo">この写真をアップロードしますか?</string>
+     <!--  	Whether to upload photos of the title of the dialog box for Location info page-->
+    <string name="Prompt">写真のタイトル</string>
+     <!--  	Confirm upload photos for Location info page-->
+<!--     <string name="Sure">Sure</string> -->
+    <string name="Sure">よろしいですか</string>
+    <!-- 	Cancel upload photos -->
+<!--     <string name="Cancel">Cancel</string> -->
+    <string name="Cancel">キャンセル</string>
+    <!-- 	Charger ID information for Location info page -->
+<!--     <string name="ChargerID">Charger ID:</string> -->
+    <string name="ChargerID">チャージャーID:</string>
+    <!-- 	Charger name information for Location info page -->
+<!--     <string name="ChargerName">Charger Name:</string> -->
+    <string name="ChargerName">チャージャー名:</string>
+    <!-- 	Charger status information for Location info page -->
+<!--     <string name="Status">Status:</string> -->
+    <string name="Status">状態:</string>
+    <!-- 	Charger Type information for Location info page -->
+<!--     <string name="Type">Type:</string> -->
+    <string name="Type">タイプ:</string>
+    <!-- 	Charger Description information for Location info page -->
+<!--     <string name="Description">Description:</string> -->
+    <string name="Description">説明:</string>
+    <!-- 	Title of charger info for Location info page -->
+<!--     <string name="charger_info">Charger Info</string> -->
+    <string name="charger_info">チャージャー情報</string>
+<!-- 	<string name="select_network_current_network">Current charging network</string> -->
+	<string name="select_network_current_network">現在の充電ネットワーク</string>
+<!-- 	<string name="load_event_log_data_finish">Event log data load finished</string> -->
+	<string name="load_event_log_data_finish">イベント・ログデータ読み込み完了</string>
+	<!-- 	longitude information for Location info page -->
+<!-- 	<string name="longitude">Longitude:</string> -->
+	<string name="longitude">経度:</string>
+	<!-- 	latitude information for Location info page -->
+<!-- 	<string name="latitude">, Latitude:</string> -->
+	<string name="latitude">, 緯度:</string>
+<!-- End of Locations info -->	
+	
+	
+<!-- String for pop-up dialogs -->
+	<!--	an action to launch system setting page-->
+<!-- 	<string name="dialog_setting">SETTINGS</string> -->
+	<string name="dialog_setting">セッティング</string>
+	<!-- 	an action to repeat recent behavior -->
+<!-- 	<string name="dialog_retry">RETRY</string> -->
+	<string name="dialog_retry">リトライ</string>
+	<!-- 	a prompt message to tell you to check your network connection-->
+<!-- 	<string name="dialog_net_alert">Check your connection and try again</string> -->
+	<string name="dialog_net_alert">接続を確認し、再試行してください</string>
+	<!-- 	a prompt message to tell you to turn on your GPS and retry -->
+<!-- 	<string name="dialog_gps_alert">Please turn on GPS and try again</string> -->
+	<string name="dialog_gps_alert">GPSをオンにして、もう一度お試しください</string>
+<!-- End String for Dialog, used in dialog--> 
+	 
+	 
+<!-- String for alert, used in Toast-->
+	<!-- 	a prompt message to tell you that there is no route that meets you -->
+<!-- 	<string name="alert_no_route">  There is no such route</string> -->
+	<string name="alert_no_route">  そのようなルートがありません</string>
+	<!--	 a prompt message to tell you that there is no any route that meets you -->
+<!-- 	<string name="alert_no_any_route">No any route</string> -->
+	<string name="alert_no_any_route">経路がありません</string>
+	<!-- 	a prompt message to tell you that the application failed to get some route -->
+<!-- 	<string name="alert_no_part_route">Failed to get part of the route</string> -->
+	<string name="alert_no_part_route">ルートの一部の取得に失敗しました</string>
+	<!-- 	a prompt message to tell you that the application failed to get your current location -->
+<!-- 	<string name="alert_no_location">Fail to get location</string> -->
+	<string name="alert_no_location">場所の取得を失敗</string>
+	<!-- 	a prompt message to tell you that you should install the Google map -->
+<!-- 	<string name="alert_no_map">Please to install Google map</string> -->
+	<string name="alert_no_map">グーグルマップをインストールして下さい</string>
+	
+	<!-- 	a prompt message to tell you to choose a network -->
+<!-- 	<string name="alert_select_net">Please select a network</string> -->
+	<string name="alert_select_net">ネットワークを選択して下さい</string>
+	<!-- 	a prompt message to tell you to choose at least one waypoints -->
+<!-- 	<string name="alert_select_waypoint">Please select waypoints</string> -->
+	<string name="alert_select_waypoint">通過点を選択して下さい</string>
+	<!-- 	a prompt text used in a label to show the current location -->
+<!-- 	<string name="current_location">My current location</string> -->
+	<string name="current_location">現在地</string>
+<!-- End for alert, used in Toast-->
+
+<!-- 	 <string name="network_content2">You can change the network setting in the</string> -->
+	 <string name="network_content2">ネットワーク設定を変更</string>
+<!-- 	   <string name="network_content3">Dashboard>Settings.</string> -->
+	   <string name="network_content3">ダッシュボード>セッティング.</string>
+<!-- 	   <string name="event_log">Event log</string> -->
+	   <string name="event_log">イベント・ログ</string>
+<!-- 	   <string name="back_toast">Even Press to exit</string> -->
+	   <string name="back_toast">キーを押して終了します</string>
+	   
+<!-- 	   filt dialog -->
+<!-- 	<string name="filt_title">Filter by event type</string> -->
+	<string name="filt_title">イベントタイプでフィルター</string>
+<!-- 	<string name="filt_emergency">Emergency</string> -->
+	<string name="filt_emergency">緊急</string>
+<!-- 	<string name="filt_fault">Fault</string> -->
+	<string name="filt_fault">障害</string>
+<!-- 	<string name="filt_warning">Warning</string> -->
+	<string name="filt_warning">警告</string>
+<!-- 	<string name="filt_info">Information</string> -->
+	<string name="filt_info">お知らせ</string>
+<!-- 	<string name="filt_config">Configration</string> -->
+	<string name="filt_config">設定</string>
+<!-- 	<string name="filt_charger">Charger</string> -->
+	<string name="filt_charger">チャージャー</string>
+</resources>

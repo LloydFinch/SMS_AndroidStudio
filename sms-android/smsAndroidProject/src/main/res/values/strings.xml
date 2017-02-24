@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+<!-- 		The application name displayed in all application list -->
+    <string name="app_name">SMS</string>
+    
+<!-- Navigation drawer items -->
+	<!-- 	Title for dashboard menu item in the side drawer menu -->
+    <string name="title_dash_board">Dashboard</string>
+	<!-- 	Title for services menu item in the side drawer menu -->
+    <string name="title_charging_fuctions">Services</string>
+	<!-- 	Title for map menu item in the side drawer menu -->
+    <string name="title_map">Map</string>
+	<!-- 	Title for route planner menu item in the side drawer menu -->
+    <string name="title_route_planner">Route planner</string>
+	<!-- 	Title for switch network menu item in the side drawer menu -->
+    <string name="title_network_setting">Switch network</string>
+	<!-- 	Title for log out menu item in the side drawer menu -->
+    <string name="title_logout">Log out</string>
+	<!-- 	Title for settings menu item in the side drawer menu -->
+    <string name="title_settings">Settings</string>
+    <string name="title_about">About</string>
+<!-- End of Navigation drawer items -->
+
+
+<!-- Page titles -->
+	
+    
+    <!--    The page title for select network page-->
+    <string name="title_dashborad">Dashboard</string>
+	<!--    The page title for route details page -->
+    <string name="title_route_detail">Route details</string>
+    <!--	The page title for route planner page -->
+    <string name="title_route_planner_s">Service route planner</string>
+<!-- End of Page titles -->
+
+
+<!-- Dashboard function items -->
+	<!-- 	The menu to Services page -->
+    <string name="dashboard_charge_func">Services</string>
+	<!-- 	The menu to Map page -->
+    <string name="dashboard_map">Map</string>
+	<!-- 	The menu to Route planner page -->
+    <string name="dashboard_route_planner">Route planner</string>
+	<!-- 	The menu to switch current network -->
+    <string name="dashboard_network_setting">Switch network</string>
+	<!-- 	The menu to log out -->
+    <string name="dashboard_logout">Log out</string>
+	<!-- 	The menu to Settings page -->
+    <string name="dashboard_settings">Settings</string>
+<!-- End of Dashboard function items -->
+
+
+<!-- Login feature -->
+	<!-- 	Text for login button-->
+    <string name="login">LOGIN</string>
+    <!-- 	The hint message for login page -->
+    <string name="password">Please enter password</string>
+    <!-- 	The hint message for login page -->
+    <string name="account">Please enter userID</string>
+	<!-- 	Tick to remember current user name and password -->
+    <string name="remember_me">Remember me</string>
+	<!--    Loading message for all ui page-->
+    <string name="loading">Loading...</string>
+<!-- End of Login feature -->
+
+
+<!-- Route Planner feature -->
+	<!-- 	A prompt text used in a label to show the results -->
+    <string name="results">Results</string>
+	<!-- 	A prompt text used in a label to show the total distance -->
+    <string name="route_tv_distance">Total distance</string>
+	<!-- 	A prompt text used in a label to show the distance -->
+    <string name="route_detail_tv_distance">Distance</string>
+	<!-- 	A prompt text used in a label to show the fare, and there need 10 spaces after the word "Fare" -->
+    <string name="route_tv_fare">Fare          </string>
+	<!-- 	A prompt text used in a label to show the visiting sequence -->
+    <string name="route_tv_visit">Visiting sequence</string>
+	<!-- 	A prompt text used in a label to show the duration -->
+    <string name="route_tv_duration">Duration</string>
+	<!-- 	A prompt text used in a button to enter navigation -->
+    <string name="button_navi">Start navigation</string>
+	
+	<!-- 	A prompt text used in a label to help user to operate the application -->
+    <string name="route_planner_service_des">Specify your origin and destination and tick the charging locations 
+        to stop by. And then tap the compass button to get the suggested routes.
+	</string>
+	<!-- 	Text label to show the copyright of route result -->
+    <string name="route_tv_copyrights">Copyrights</string>
+	<!-- 	Text label to show the warning message -->
+    <string name="route_tv_warn">Warn</string>
+	<!-- 	Text label to show the start point -->
+    <string name="route_tv_origin">Origin</string>
+	<!-- 	Text label to show the end point -->
+    <string name="route_tv_des">Destination</string>
+	<!-- 	Text label to show the waypoints -->
+    <string name="route_tv_waypoints">Waypoints</string>
+	<!-- 	Text label to show the detailed route instructions -->
+	<string name="route_tv_instructions">Instructions</string>
+<!-- End of Route Planner feature -->
+   
+ 
+<!-- String for Charging actions -->
+ 	<!-- 	the title of the charger -->
+    <string name="charger_title">Charger:</string>
+    <!-- 	the title of the EVSE -->
+    <string name="evse_title">EVSE:</string>
+	<!-- 	the action to reboot a charger -->
+    <string name="reboot">Reboot charger</string>
+	<!-- 	the action to reset a charger -->
+    <string name="reset">Reset charger</string>
+	<!-- 	the action to disable a charger -->
+    <string name="disable">Disable charger</string>
+	<!-- 	the action to enable a charger -->
+    <string name="enable">Enable charger</string>
+	<!-- 	the action to initiate firmware for the charger -->
+    <string name="firmware">Initiate firmware update</string>
+	<!-- 	the action to initiate whitelist for the charger -->
+    <string name="whitelist">Initiate whitelist update</string>
+	<!-- 	the action to select a firmware version -->
+    <string name="firmware_title">Choose the firmware version</string>
+	<!-- 	text label to show the current firmware version -->
+    <string name="version">(Current version: %s)</string>
+	<!-- 	an action to confirm the recent behavior -->
+    <string name="ok">OK</string>
+	<!-- 	an action to cancel the recent behavior -->
+    <string name="cancel">CANCEL</string>
+	<!-- 	an action to perform the firmware update -->
+    <string name="update">UPDATE</string>
+	<!-- 	the action to initiate whitelist update for the charger -->
+    <string name="whitelist_title">Initiate whitelist update</string>
+	<!-- 	descriptions for whitelist update -->
+    <string name="whitelist_content">Click update to sync the latest whitelist</string>
+	<!-- 	the action to start a charging session-->
+    <string name="start_charge">Start charging session</string>
+	<!-- 	the action to stop a charging session-->
+    <string name="stop_charge">Stop charging session</string>
+	<!-- 	the action to release a lock -->
+    <string name="release_lock">Release lock</string>
+	<!-- 	the action to make the EVSE enable-->
+    <string name="enable_evse">Enable EVSE</string>
+	<!-- 	the action to make the EVSE disable-->
+    <string name="disable_evse">Disable EVSE</string>
+<!-- End of Charging actions-->
+
+
+<!-- Map -->
+	<!--    display current location for map page-->
+    <string name="maps_title">Current location</string>
+	<!--    no charging location specified, use the device's location info for map -->
+    <string name="maps_words">Not specified - use device current location</string>
+	<!--    Feature description and instructions for the Map page. -->
+    <string name="maps_word">Pinch to zoom and swipe to navigate. Charging locations with faulted chargers are marked in red. Click on the markers for more detailed information about the location.</string>
+    <!-- 	Text label to hint the user to choose a charging location -->
+    <string name="choose_location">Choose a location</string>
+    <!-- 	The title for map page -->
+    <string name="chargig_location_map">Charging location map</string>
+    <!-- 	The title for map page -->
+    <string name="near_by_location">Nearby charging locations</string>
+    <!-- 	The distance from current location for map page -->
+    <string name="loc_away_from">KM away from current location</string>
+    <!-- 	copy the location info to clipboard -->
+    <string name="copy_loc_info">Copy the location info to clipboard</string>
+<!-- End of Map -->
+
+
+<!-- Event log -->
+	<!--    TAB name to check all event logs -->
+    <string name="event_log_all">ALL</string>
+    <!--    TAB name to check charger event logs -->
+    <string name="event_log_charger">CHARGER</string>
+    <!--    TAB name to check EVSE event logs -->
+    <string name="event_log_evse">&#160;&#160;&#160;EVSE</string>
+    
+   
+   
+    <!--    Event type name for configuration events -->
+    <string name="event_log_config">CONFIG</string>
+    
+    <!--    Event type name for information events -->
+    <string name="event_log_info">INFO</string>
+    
+    
+    <!--    Text label for the event name -->
+    <string name="event_log_event">Event</string>
+    <!--    Text label for the event occurrence time -->
+    <string name="event_log_occur">Occurrence</string>
+	<!--    Text label for the event clearance time  -->
+    <string name="event_log_clearance">Clearance</string>
+    <!--    Text label for the charger id  -->
+    <string name="event_log_chargerId">Charger Id</string>
+    <!--    Text label for the evse id  -->
+	<string name="event_log_evseId">EvseId</string>
+	<!-- 	No data of event log for event log page-->
+	<string name="no_event_found">No event log found</string>
+<!-- End of Event log -->
+
+	
+<!-- Select network & Network switch-->
+	<!--    description for select network -->
+    <string name="network_content">Please select a charging network from the dropdown list. 
+        You can change the charging network in Dashboard 
+        > Switch network, or specify the preferred network in Dashboard 
+        > Settings.
+    </string>
+	<!--    The text label on the button to confirm entering the selected network -->
+    <string name="network_next">ENTER NETWORK</string>
+    <string name="title_activity_select_network">Select charging network</string>
+    <!-- 	The hint message of selecting network for login page -->
+    <string name="select_network">Please select a network</string>
+    <!--    description of company for switch network page -->
+    <string name="select_network_company">Company</string>
+    <!--    description of state for switch network page -->
+    <string name="select_network_state">State</string>
+    <!--    description of contact for switch network page -->
+    <string name="select_network_contact">Contact</string>
+    <!--    description of address for switch network page -->
+    <string name="select_network_address">Address</string>
+    <!--    description of phone for switch network page -->
+    <string name="select_network_phone">Phone</string>
+    <!--    description of mobile for switch network page -->
+    <string name="select_network_mobile">Mobile</string>
+    <!--    description of mail for switch network page -->
+    <string name="select_network_mail">Mail</string>
+<!-- End of Select network & Network switch -->
+
+
+<!-- Settings -->
+	<!--    Preferred network for setting page -->
+    <string name="setting_network">Preferred charging network</string>
+	<!--    Application language for setting page -->
+    <string name="setting_language">Language</string>
+    <!--    Language setting - English -->
+    <string name="settings_language_english">English</string>
+    <!--    Language setting - Chinese -->
+    <string name="settings_language_cn">中文</string>
+    
+    
+<!-- End of Settings -->
+
+
+<!-- Services feature -->
+    <!-- 	Services page to select the title of the Evse drop-down box -->
+    <string name="EVSE">EVSE    </string>
+    <!-- 	Services page to select the title of the Charger drop-down box -->
+    <string name="Charger">Charger </string>
+    <!-- 	Services page to select the title of the Location drop-down box -->
+    <string name="Location">Location</string>
+    <!-- 	Event options for Services pages -->
+    <string name="Event">Event </string>
+     <!-- 	Map options for Services pages -->
+    <string name="Map">Map</string>
+     <!--  	Location info options for Services pages -->
+    <string name="Info">Info</string>
+     <!--  	Actions options for Services pages -->
+    <string name="Actions">Actions</string>
+    <!-- 	Location drop-down box tips for Services pages -->
+    <string name="Select_Location">Please select the Location</string>
+    <!-- 	Charger drop-down box tips for Services pages -->
+    <string name="Select_Charger">Please select the Charger</string>
+    <!-- 	EVSE drop-down box tips for Services pages-->
+    <string name="Select_EVSE">Please select the EVSE</string>
+    <!-- 	Tips of failure of network connection -->
+    <string name="load_failed">Please check the network</string>
+    <!-- 	Title of Location info page -->
+    <string name="Location_Info">Location Info</string>
+    <!-- 	Did not fill in the "Location" reminder for Services pages-->
+    <string name="no_location">Please fill in the Location</string>
+    <!-- 	Did not fill in the "Charger" reminder for Services pages-->
+    <string name="no_charger">Please fill in the Charger</string>
+<!-- End of Services feature -->
+
+
+<!-- Location info -->
+    <!-- 	Location name information for Location info page -->
+    <string name="Location_name">Location name</string>
+    <!-- 	Phone numbers information for Location info page -->
+    <string name="Phone_numbers">Phone numbers</string>
+    <!-- 	Mobile information for Location info page -->
+    <string name="Mobile">Mobile</string>
+    <!-- 	Mail information for Location info page -->
+    <string name="Mail">Mail</string>
+    <!-- 	Address information for Location info page -->
+    <string name="Address">Address</string>
+    <!--	Coordinates information for Location info page -->
+    <string name="Coordinates">Coordinates</string>
+    <!-- 	Note information for Location info page -->
+    <string name="Note">Note</string>
+    <!--  	Whether to upload photos for Location info page-->
+    <string name="Sure_to_upload_photo">Upload this photo?</string>
+     <!--  	Whether to upload photos of the title of the dialog box for Location info page-->
+    <string name="Prompt">Prompt</string>
+     <!--  	Confirm upload photos for Location info page-->
+    <string name="Sure">Sure</string>
+    <!-- 	Cancel upload photos -->
+    <string name="Cancel">Cancel</string>
+    <!-- 	Charger ID information for Location info page -->
+    <string name="ChargerID">Charger ID:</string>
+    <!-- 	Charger name information for Location info page -->
+    <string name="ChargerName">Charger Name:</string>
+    <!-- 	Charger status information for Location info page -->
+    <string name="Status">Status:</string>
+    <!-- 	Charger Type information for Location info page -->
+    <string name="Type">Type:</string>
+    <!-- 	Charger Description information for Location info page -->
+    <string name="Description">Description:</string>
+    <!-- 	Title of charger info for Location info page -->
+    <string name="charger_info">Charger Info</string>
+	<string name="select_network_current_network">Current charging network</string>
+	<string name="load_event_log_data_finish">Event log data load finished</string>
+	<!-- 	longitude information for Location info page -->
+	<string name="longitude">Longitude:</string>
+	<!-- 	latitude information for Location info page -->
+	<string name="latitude">, Latitude:</string>
+<!-- End of Locations info -->	
+	
+	
+<!-- String for pop-up dialogs -->
+	<!--	an action to launch system setting page-->
+	<string name="dialog_setting">SETTINGS</string>
+	<!-- 	an action to repeat recent behavior -->
+	<string name="dialog_retry">RETRY</string>
+	<!-- 	a prompt message to tell you to check your network connection-->
+	<string name="dialog_net_alert">Check your connection and try again</string>
+	<!-- 	a prompt message to tell you to turn on your GPS and retry -->
+	<string name="dialog_gps_alert">Please turn on GPS and try again</string>
+	<!-- 	a prompt message to tell you that your operation is failed -->
+	<string name="action_failed">Fail, check your connection and try again</string>
+<!-- End String for Dialog, used in dialog--> 
+	 
+	 
+<!-- String for alert, used in Toast-->
+	<!-- 	a prompt message to tell you that there is no route that meets you -->
+	<string name="alert_no_route">  There is no such route</string>
+	<!--	 a prompt message to tell you that there is no any route that meets you -->
+	<string name="alert_no_any_route">No any route</string>
+	<!-- 	a prompt message to tell you that the application failed to get some route -->
+	<string name="alert_no_part_route">Failed to get part of the route</string>
+	<!-- 	a prompt message to tell you that the application failed to get your current location -->
+	<string name="alert_no_location">Fail to get location</string>
+	<!-- 	a prompt message to tell you that you should install the Google map -->
+	<string name="alert_no_map">Please to install Google map</string>
+	
+	<!-- 	a prompt message to tell you to choose a network -->
+	<string name="alert_select_net">Please select a network</string>
+	<!-- 	a prompt message to tell you to choose at least one waypoints -->
+	<string name="alert_select_waypoint">Please select waypoints</string>
+	<!-- 	a prompt text used in a label to show the current location -->
+	<string name="current_location">My current location</string>
+	<!-- 	a prompt text used in a label to told you should not choose more wayPoints -->
+	<string name="alert_too_more_points">You can not choose more waypoints</string>
+<!-- End for alert, used in Toast-->
+
+	 <string name="network_content2">You can change the network setting in the</string>
+	   <string name="network_content3">Dashboard>Settings.</string>
+	   <string name="event_log">Event log</string>
+	   <string name="back_toast">Press again to exit</string>
+	   
+<!-- 	   filt dialog -->
+	<string name="filt_title">Filter by event type</string>
+	<string name="filt_emergency">Emergency</string>
+	<string name="filt_fault">Fault</string>
+	<string name="filt_warning">Warning</string>
+	<string name="filt_info">Information</string>
+	<string name="filt_config">Configration</string>
+	<string name="filt_charger">Charger</string>
+	<string name="no_sim">No SIM card</string>
+	<string name="offline">Offline</string>
+	<string name="available">Available</string>
+	<string name="occupied">Occupied</string>
+	<string name="reserved">Reserved</string>
+	<string name="unavailable">Unavailable</string>
+	<string name="faulted"> Faulted</string>
+	
+	<string name="goolge_map_no_support">Google map is not supported </string>
+	
+	<!-- 	a prompt text used in a label to show the current location -->
+	<string name="no_charge_link">No charge to link</string>
+	<!-- 	a prompt text used in a label to show the current location -->
+	<string name="command_alert">Your command has been sent, please wait for the result</string>
+	<!-- 	a prompt text used in a Dialog to tell the user to login again -->
+	<string name="login_again">For Account changes, please log in again</string>
+	
+	<string name="uid_null">UserID can not be empty</string>
+	<string name="pw_null">Password can not be empty</string>
+	<string name="time_error">The end time should not be less than the starting time!</string>
+	<!-- event detail -->
+	<string name="description">Description</string>
+	<string name="error">Error</string>
+	<string name="user">User</string>
+	<string name="solution">Solution</string>
+	<string name="value">Value</string>
+	<string name="key">Key</string>
+	<string name="oldvalue">OldValue</string>
+	<string name="newvalue">NewValue</string>
+	<string name="status">Status</string>
+	<string name="event_detail">Event details</string>
+	<string name="detail_null"> </string>
+	<!-- about页面 -->
+	<string name="about_version">Version</string>
+	<string name="terms_of_service">Terms of service </string>
+	<string name="privacy_policy">Privacy policy </string>
+	<string name="open_source_license">Open source license </string>
+	<!-- 新添加 -->
+	<!-- length-->
+	<string name="km">km</string>
+	  <!-- time -->
+	<string name="min">min</string>
+	<string name="no_more">No more</string>
+	<string name="no_event">No event</string>
+	<string name="no_event_log">No event log</string>
+	<string name="no_available_network">No available network!</string>
+
+	
+    <string name="operation_in_progress">Operation in progress</string>
+    <string name="order_by_event_level">Order by event level</string>
+    <string name="charger_cl_dc_01">Charger:CL-DC-01</string>
+    <string name="date_range">Date range</string>
+    <string name="drc_bj_charging_location_b">DRC BJ Charging Location B</string>
+    <string name="photo_source">Photo source</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="charging_location_b">Charging location B</string>
+    <string name="order_by_occurrence_time">Order by occurrence time</string>
+    <string name="_1km">1KM</string>
+    <string name="_offline">(offline)</string>
+    <string name="web_socket_message">Web socket message ...</string>
+    <string name="order_by_clearance_time">Order by clearance time</string>
+    <string name="disable_recifier">Disable Recifier</string>
+    <string name="today">Today</string>
+    <string name="order_by_event_title">Order by event title</string>
+    <string name="take_a_picture_with_camera">Take a picture with camera</string>
+    <string name="chargerid">ChargerID</string>
+    <string name="a3_1">A3-1</string>
+    <string name="order_by_event_id">Order by event ID</string>
+    <string name="_1">1</string>
+    <string name="_status">Status</string>
+    <string name="_ok">OK</string>
+    <string name="last_7_days">Last 7 days</string>
+    <string name="type">Type</string>
+    <string name="choose_from_gallery">Choose from gallery</string>
+    <string name="delta_ev_quick_charger">Delta EV Quick Charger</string>
+    <string name="evse_0">EVSE 0</string>
+    <string name="_description">Description</string>
+    <string name="installed_by_abc_corp">Installed by ABC CORP</string>
+    <string name="last_30_days">Last 30 days</string>
+    <string name="_2015_08_04_08_02_am">2015-08-04 08:02 am.</string>
+    <string name="all_time">All time</string>
+    <string name="http_172_22_35_131_7001_emea">http://172.22.35.131:7001/EMEA/</string>
+    <string name="ongoing">Ongoing</string>
+    <string name="http_172_22_35_155_7001_emea">http://172.22.35.155:7001/EMEA/</string>
+    <string name="http_172_22_35_163_7001_emea">http://172.22.35.163:7001/EMEA/</string>
+    <string name="http_172_22_35_140_7001_emea">http://172.22.35.140:7001/EMEA/</string>
+    <string name="http_172_22_35_146_7001_emea">http://172.22.35.146:7001/EMEA/</string>
+    <string name="custom_range">Custom range</string>
+    <string name="from">From</string>
+    <string name="_date_range">Date range</string>
+    <string name="to">To</string>
+</resources>

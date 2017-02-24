@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/c_00adef" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/event_detail"
+                android:textColor="@color/c_ffffff"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/event_detail_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/event_detail_item1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/description" />
+
+            <TextView
+                android:id="@+id/description1"
+                style="@style/event_detail_item2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/event_detail_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/user"
+                style="@style/event_detail_item1" />
+
+            <TextView
+                android:id="@+id/user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/event_detail_item2" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/event_detail_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/solution"
+                style="@style/event_detail_item1" />
+
+            <TextView
+                android:id="@+id/solution"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/event_detail_item2" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/event_detail_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/error"
+                style="@style/event_detail_item1" />
+
+            <TextView
+                android:id="@+id/description2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               style="@style/event_detail_item2" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/event_detail_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/value"
+                style="@style/event_detail_item1" />
+
+            <TextView
+                android:id="@+id/value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/event_detail_item2" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/event_detail_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/key"
+                style="@style/event_detail_item1" />
+
+            <TextView
+                android:id="@+id/key"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/event_detail_item2"  />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/event_detail_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/oldvalue"
+                style="@style/event_detail_item1"  />
+
+            <TextView
+                android:id="@+id/oldvalue1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               style="@style/event_detail_item2"  />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/event_detail_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/newvalue"
+                style="@style/event_detail_item1"  />
+
+            <TextView
+                android:id="@+id/oldvalue2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/event_detail_item2"  />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/event_detail_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/status"
+               style="@style/event_detail_item1"  />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/event_detail_item2"  />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:paddingTop="@dimen/dimen_1080_5dp"
+    android:background="@drawable/round_dialog_back"
+    >
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary"
+        android:text="@string/whitelist_title"
+        android:layout_marginStart="@dimen/dimen_1080_10dp"
+        />
+    
+     <TextView 
+         android:id="@+id/tv_whitelist_versioncode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="@string/version"
+        android:layout_marginStart="@dimen/dimen_1080_10dp"
+        android:layout_marginBottom="@dimen/dimen_1080_10dp"
+        />
+	 <include layout="@layout/line_horizontal_list"/>
+	 
+	 
+	 <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="@string/whitelist_content"
+        android:layout_marginLeft="@dimen/dimen_1080_30dp"
+        android:layout_marginRight="@dimen/dimen_1080_30dp"
+        android:layout_marginTop="@dimen/dimen_1080_40dp"
+        android:layout_marginBottom="@dimen/dimen_1080_40dp"
+        />
+	 <include layout="@layout/line_horizontal_list"/>
+	 
+	 <LinearLayout 
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:orientation="horizontal"
+	     android:padding="@dimen/dimen_1080_6dp"
+	     >
+	     <TextView 
+	         android:id="@+id/button_cancel"
+	         android:layout_width="0dp"
+	         android:layout_height="wrap_content"
+	         android:layout_weight="1"
+	         android:text="@string/cancel"
+	         android:gravity="center"
+	         android:textSize="@dimen/dimen_1080_18sp"
+	         android:textColor="@color/primary"
+	         android:padding="@dimen/dimen_1080_10dp"
+	         />
+	     <TextView 
+	         android:layout_width="1dp"
+	         android:layout_height="match_parent"
+	         android:background="@android:color/darker_gray"
+	         />
+	      <TextView 
+	         android:id="@+id/button_update"
+	         android:layout_width="0dp"
+	         android:layout_height="wrap_content"
+	         android:layout_weight="1"
+	         android:text="@string/update"
+	         android:textColor="@color/primary"
+	         android:gravity="center"
+	         android:textSize="@dimen/dimen_1080_18sp"
+	         android:padding="@dimen/dimen_1080_10dp"
+	         />
+	 </LinearLayout>
+</LinearLayout>

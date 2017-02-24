@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delta.smsandroidproject.view.fragment.EventLogChargerFragment" >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <com.delta.smsandroidproject.util.AnimRFRecyclerView
+	    android:id="@+id/loadMoreRecyclerView1"
+	    android:layout_margin="@dimen/event_log_marging_8dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+	</com.delta.smsandroidproject.util.AnimRFRecyclerView>
+	<TextView 
+	    android:id="@+id/txNoEvent"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:text="@string/no_event_found"
+	    android:visibility="gone"
+	    android:gravity="center"/>
+</FrameLayout>

@@ -1,0 +1,134 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+<dimen name="spacing_xsmall">2dp</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+	 <!--
+         Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html
+    -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="navigation_drawer_user_info_item_height">56dp</dimen>
+    <dimen name="navigation_drawer_user_info_item_margin_button">8dp</dimen>
+    <dimen name="navigation_drawer_user_icon_margin_top">16dp</dimen>
+    <dimen name="navigation_drawer_header_height">192dp</dimen>
+	<!-- For list items -->
+    <dimen name="list_item_margin_left">16dp</dimen>
+    <dimen name="list_item_icon_margin_left">16dp</dimen>
+    <dimen name="list_item_text_margin_left">72dp</dimen>
+    <dimen name="list_item_margin_right">16dp</dimen>
+    <dimen name="list_item_height">72dp</dimen>
+    <dimen name="list_item_primary_font_size">16sp</dimen>
+    <dimen name="list_item_secondary_font_size">14sp</dimen>
+    <dimen name="elevation_low">9dp</dimen>
+    <dimen name="elevation_high">12dp</dimen>
+    <dimen name="status_bar_height">25dp</dimen>
+    <dimen name="image_height">180dp</dimen>
+	 <!--
+         Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html
+    -->
+ <!--   <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="navigation_drawer_user_info_item_height">56dp</dimen>
+    <dimen name="navigation_drawer_user_info_item_margin_button">8dp</dimen>
+    <dimen name="navigation_drawer_user_icon_margin_top">16dp</dimen>
+    <dimen name="navigation_drawer_header_height">192dp</dimen>
+     -->
+	<!-- For list items -->
+ <!--    <dimen name="list_item_margin_left">16dp</dimen>
+    <dimen name="list_item_icon_margin_left">16dp</dimen>
+    <dimen name="list_item_text_margin_left">72dp</dimen>
+    <dimen name="list_item_margin_right">16dp</dimen>
+    <dimen name="list_item_height">72dp</dimen>
+    <dimen name="list_item_primary_font_size">16sp</dimen>
+    <dimen name="list_item_secondary_font_size">14sp</dimen>
+    -->
+    
+    <dimen name="event_log_padding_16dp">16dp</dimen>
+    <dimen name="event_log_marging_8dp">8dp</dimen>
+    <dimen name="event_log_marging_2dp">2dp</dimen>
+    
+    <dimen name="item_map_popview_4dp">4dp</dimen>
+    <dimen name="item_map_popview_8dp">8dp</dimen>
+    <dimen name="item_map_popview_16dp">16dp</dimen>
+    
+<!--     select network -->
+	<dimen name="select_network_margin_8dp">8dp</dimen>
+	<dimen name="select_network_margin_16dp">16dp</dimen>
+	<dimen name="select_network_margin_32dp">32dp</dimen>
+	<dimen name="select_network_margin_48dp">48dp</dimen>
+	<dimen name="select_network_width_48dp">48dp</dimen>
+	<dimen name="select_network_width_96dp">96dp</dimen>
+	<dimen name="select_network_textsize_18sp">20sp</dimen>
+<!-- 	setting -->
+	<dimen name="setting_height_96dp">96dp</dimen>
+	<dimen name="setting_height_48dp">48dp</dimen>
+	<dimen name="setting_height_32dp">32dp</dimen>
+	<dimen name="setting_marging_48dp">48dp</dimen>
+	<dimen name="setting_padding_24dp">24dp</dimen>
+	<dimen name="setting_padding_8dp">8dp</dimen>
+	<dimen name="setting_textsize_18sp">18sp</dimen>
+	
+	<dimen name="dialog_event_log_oderby_padding_40dp">40dp</dimen>
+	<dimen name="dialog_event_log_oderby_padding_8dp">8dp</dimen>
+	<dimen name="dialog_event_log_oderby_padding_16dp">16dp</dimen>
+	<dimen name="dialog_event_log_oderby_padding_30dp">30dp</dimen>
+	<dimen name="dialog_event_log_oderby_padding_80dp">80dp</dimen>
+	
+	<!-- dp in 1080	 -->
+	<dimen name="dimen_1080_1dp">1dp</dimen>
+	<dimen name="dimen_1080_2dp">2dp</dimen>
+	<dimen name="dimen_1080_3dp">3dp</dimen>
+	<dimen name="dimen_1080_4dp">4dp</dimen>
+	<dimen name="dimen_1080_5dp">5dp</dimen>
+	<dimen name="dimen_1080_6dp">6dp</dimen>
+	<dimen name="dimen_1080_7dp">7dp</dimen>
+	<dimen name="dimen_1080_8dp">8dp</dimen>
+	<dimen name="dimen_1080_9dp">9dp</dimen>
+	<dimen name="dimen_1080_10dp">10dp</dimen>
+	<dimen name="dimen_1080_11dp">11dp</dimen>
+	<dimen name="dimen_1080_12dp">12dp</dimen>
+	<dimen name="dimen_1080_13dp">13dp</dimen>
+	<dimen name="dimen_1080_14dp">14dp</dimen>
+	<dimen name="dimen_1080_15dp">15dp</dimen>
+	<dimen name="dimen_1080_16dp">16dp</dimen>
+	<dimen name="dimen_1080_17dp">17dp</dimen>
+	<dimen name="dimen_1080_18dp">18dp</dimen>
+	<dimen name="dimen_1080_19dp">19dp</dimen>
+	<dimen name="dimen_1080_20dp">20dp</dimen>
+	<dimen name="dimen_1080_23dp">23dp</dimen>
+	<dimen name="dimen_1080_30dp">30dp</dimen>
+	<dimen name="dimen_1080_34dp">34dp</dimen>
+	<dimen name="dimen_1080_35dp">35dp</dimen>
+	<dimen name="dimen_1080_40dp">40dp</dimen>
+	<dimen name="dimen_1080_45dp">45dp</dimen>
+	<dimen name="dimen_1080_48dp">48dp</dimen>
+	<dimen name="dimen_1080_50dp">50dp</dimen>
+	<dimen name="dimen_1080_100dp">100dp</dimen>
+	<dimen name="dimen_1080_140dp">140dp</dimen>
+	<dimen name="dimen_1080_200dp">200dp</dimen>
+	
+	<!-- sp in 1080	 -->
+	<dimen name="dimen_1080_10sp">10sp</dimen>
+	<dimen name="dimen_1080_11sp">11sp</dimen>
+	<dimen name="dimen_1080_12sp">12sp</dimen>
+	<dimen name="dimen_1080_13sp">13sp</dimen>
+	<dimen name="dimen_1080_14sp">14sp</dimen>
+	<dimen name="dimen_1080_15sp">15sp</dimen>
+	<dimen name="dimen_1080_16sp">16sp</dimen>
+	<dimen name="dimen_1080_18sp">18sp</dimen>
+	<dimen name="dimen_1080_20sp">20sp</dimen>
+	<dimen name="dimen_1080_21sp">21sp</dimen>
+	<dimen name="dimen_1080_22sp">22sp</dimen>
+	<dimen name="dimen_1080_23sp">23sp</dimen>
+	<dimen name="dimen_1080_24sp">24sp</dimen>
+	<dimen name="dimen_1080_25sp">25sp</dimen>
+	<dimen name="dimen_1080_30sp">30sp</dimen>
+	<dimen name="dimen_1080_40sp">40sp</dimen>
+	
+	
+</resources>

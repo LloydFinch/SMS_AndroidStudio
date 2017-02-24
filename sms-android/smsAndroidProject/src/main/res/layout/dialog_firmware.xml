@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_dialog_back"
+    >
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" 
+	    android:paddingTop="@dimen/dimen_1080_5dp"
+	    >
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/primary"
+	        android:text="@string/firmware_title"
+	        android:layout_marginStart="@dimen/dimen_1080_10dp"
+	        />
+	    
+	     <TextView 
+	        android:id="@+id/tv_whitelist_versioncode"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="@android:color/black"
+	        android:text="@string/version"
+	        android:layout_marginStart="@dimen/dimen_1080_10dp"
+	        android:layout_marginBottom="@dimen/dimen_1080_10dp"
+	        />
+		 <include layout="@layout/line_horizontal_list"/>
+		 
+		 
+		  <android.support.v7.widget.RecyclerView 
+	        android:id="@+id/list_version"
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1"
+	        >
+	        
+	    </android.support.v7.widget.RecyclerView>
+		 <include layout="@layout/line_horizontal_list"/>
+		 
+		 <LinearLayout 
+		     android:layout_width="match_parent"
+		     android:layout_height="wrap_content"
+		     android:orientation="horizontal"
+		     android:padding="@dimen/dimen_1080_6dp"
+		     >
+		     <TextView 
+		         android:id="@+id/button_cancel_firm"
+		         android:layout_width="0dp"
+		         android:layout_height="wrap_content"
+		         android:layout_weight="1"
+		         android:text="@string/cancel"
+		         android:gravity="center"
+		         android:textSize="@dimen/dimen_1080_18sp"
+		         android:textColor="@color/primary"
+		         android:padding="@dimen/dimen_1080_10dp"
+		         />
+		     <TextView 
+		         android:layout_width="1dp"
+		         android:layout_height="match_parent"
+		         android:background="@android:color/darker_gray"
+		         />
+		      <TextView 
+		         android:id="@+id/button_ok_firm"
+		         android:layout_width="0dp"
+		         android:layout_height="wrap_content"
+		         android:layout_weight="1"
+		         android:text="@string/ok"
+		         android:textColor="@color/primary"
+		         android:gravity="center"
+		         android:textSize="@dimen/dimen_1080_18sp"
+		         android:padding="@dimen/dimen_1080_10dp"
+		         />
+		 </LinearLayout>
+	</LinearLayout>
+	
+	<ViewStub 
+	    android:id="@+id/websocket_progress_stub"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout="@layout/layout_websocket_progress"
+	    />
+</FrameLayout>

@@ -1,0 +1,3 @@
+include ':googleplayservices_lib'
+include ':commonlibv1'
+include ':smsAndroidProject'

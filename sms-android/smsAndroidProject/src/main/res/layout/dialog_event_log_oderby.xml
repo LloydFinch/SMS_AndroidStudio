@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_marginLeft="@dimen/dialog_event_log_oderby_padding_16dp"
+            android:padding="@dimen/dialog_event_log_oderby_padding_16dp"
+            android:text="@string/order_by_event_level" />
+		<TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcdcd"/>
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dialog_event_log_oderby_padding_16dp"
+            android:padding="@dimen/dialog_event_log_oderby_padding_16dp"
+            android:text="@string/order_by_occurrence_time" />
+		<TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcdcd"/>
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dialog_event_log_oderby_padding_16dp"
+            android:padding="@dimen/dialog_event_log_oderby_padding_16dp"
+            android:text="@string/order_by_clearance_time" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcdcd"/>
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dialog_event_log_oderby_padding_16dp"
+            android:padding="@dimen/dialog_event_log_oderby_padding_16dp"
+            android:text="@string/order_by_event_title" />
+		<TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcdcd"/>
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dialog_event_log_oderby_padding_16dp"
+            android:padding="@dimen/dialog_event_log_oderby_padding_16dp"
+            android:visibility="gone"
+            android:text="@string/order_by_event_id" />
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_dialog_back"
+    >
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical" 
+        >
+	      <TextView 
+		        android:id="@+id/action_title"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:paddingTop="@dimen/dimen_1080_10dp"
+		        android:textSize="@dimen/dimen_1080_20sp"
+		        android:textColor="@color/transparent_white"
+		        android:paddingStart="@dimen/dimen_1080_10dp"
+		        android:background="@drawable/round_top_tv"
+		        android:text="@string/charger_cl_dc_01"
+	        />
+	    <TextView 
+	        android:id="@+id/action_charger_status"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical"
+	        android:paddingLeft="@dimen/dimen_1080_16dp"
+	        android:paddingBottom="@dimen/dimen_1080_4dp"
+	        android:background="@color/theme_primary"
+	        android:textColor="@color/transparent_white"
+	        android:text="@string/_offline"
+	        />
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="@dimen/dimen_1080_4dp"
+	        android:paddingLeft="@dimen/dimen_1080_16dp"
+	        android:paddingRight="@dimen/dimen_1080_16dp"
+	        android:orientation="vertical"
+	        >
+	        
+	        <TextView 
+	            android:id="@+id/tv_action_reboot"
+		        style="@style/charge_action_item"
+		        android:text="@string/reboot"
+	        />
+	    <include layout="@layout/line_horizontal_list"/>
+	     <TextView 
+	         android:id="@+id/tv_action_reset"
+	         style="@style/charge_action_item"
+	         android:text="@string/reset"
+	        />
+	    <include layout="@layout/line_horizontal_list"/>
+	     <TextView 
+	         android:id="@+id/tv_action_disable"
+	         style="@style/charge_action_item"
+	         android:text="@string/disable"
+	        />
+	    <include layout="@layout/line_horizontal_list"/>
+	    
+	     <TextView 
+	         android:id="@+id/tv_action_enable"
+	        style="@style/charge_action_item"
+	         android:text="@string/enable"
+	        />
+	    <include layout="@layout/line_horizontal_list"/>
+	    
+		    <LinearLayout 
+		        android:id="@+id/ll_super"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        >
+		         <TextView 
+		          android:id="@+id/tv_action_firmware"
+		          style="@style/charge_action_item"
+		         android:text="@string/firmware"
+		        />
+		    <include layout="@layout/line_horizontal_list"/>
+		    
+		     <TextView 
+		         android:id="@+id/tv_action_whitelist"
+		         style="@style/charge_action_item"
+		         android:text="@string/whitelist"
+		        />
+		    </LinearLayout>
+		    
+	    </LinearLayout>
+	     <LinearLayout 
+	        android:id="@+id/ll_evse_container"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_marginTop="@dimen/dimen_1080_10dp"
+	        >
+		    
+	        <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+	        >
+		      <TextView 
+			        android:id="@+id/action_title_evse"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="@dimen/dimen_1080_5dp"
+			        android:layout_marginBottom="@dimen/dimen_1080_5dp"
+			        android:textSize="@dimen/dimen_1080_20sp"
+			        android:textColor="@color/theme_primary"
+			        android:paddingStart="@dimen/dimen_1080_10dp"
+		        />
+		      
+		        <TextView 
+			        android:id="@+id/action_evse_status"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="@dimen/dimen_1080_5dp"
+			        android:layout_marginBottom="@dimen/dimen_1080_5dp"
+			        android:textSize="@dimen/dimen_1080_15sp"
+			        android:textColor="@color/theme_primary"
+		        />
+		    </LinearLayout>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/dimen_1080_1dp"
+	        android:background="@android:color/darker_gray"
+	        />
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="@dimen/dimen_1080_16dp"
+	        android:paddingRight="@dimen/dimen_1080_16dp"
+	        android:orientation="vertical"
+	        >
+	        
+	        <TextView 
+	            android:id="@+id/tv_action_start"
+		      	style="@style/charge_action_item"
+		        android:text="@string/start_charge"
+	        />
+	    <include layout="@layout/line_horizontal_list"/>
+	     <TextView 
+	         android:id="@+id/tv_action_stop"
+	         style="@style/charge_action_item"
+	         android:text="@string/stop_charge"
+	        />
+	    <include layout="@layout/line_horizontal_list"/>
+	    
+	     <TextView 
+	         android:id="@+id/tv_action_release"
+	         style="@style/charge_action_item"
+	         android:text="@string/release_lock"
+	        />
+	    <include layout="@layout/line_horizontal_list"/>
+	    
+	     <TextView 
+	         android:id="@+id/tv_action_enable_evse"
+	        style="@style/charge_action_item"
+	         android:text="@string/enable_evse"
+	        />
+	    <include layout="@layout/line_horizontal_list"/>
+	    
+	     <TextView 
+	          android:id="@+id/tv_action_disable_evse"
+	          style="@style/charge_action_item"
+	          android:text="@string/disable_evse"
+	        />
+	    </LinearLayout>
+	 </LinearLayout>
+    </LinearLayout>
+    
+   <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" 
+	    android:gravity="center"
+	    android:visibility="gone"
+	    android:id="@+id/view_stub_progress"
+	    android:background="@drawable/round_transparent_dialog_back"
+    >
+    
+	<TextView 
+	    android:id="@+id/tv_progress2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/loading"
+	    android:textColor="@android:color/black"
+	    android:textStyle="bold"
+	    android:padding="@dimen/dimen_1080_2dp"
+	    android:textSize="@dimen/dimen_1080_20sp"
+	    />
+	<ProgressBar 
+	    android:id="@+id/websocket_progress"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="@dimen/dimen_1080_20dp"
+	    android:progress="50"
+	    />
+</LinearLayout>
+
+</FrameLayout>

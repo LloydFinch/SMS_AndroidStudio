@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.delta.smsandroidproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.maps.android.utils.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>  
+
+    <application
+        android:name=".app.SMSApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo_charger"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+<uses-library android:name="com.google.android.maps" android:required="false" />
+        <!-- AIzaSyDfnQdZDtZGqbcI8lfiqXS34oN_IwU_lls -->
+        <!-- AIzaSyCYZMMnnDXw6vltSc9tqMNCxyDhYv8GxzY -->
+        <!-- AIzaSyBr_gcGMHn3oIUv1MCo4j-k-PD2QhvLyAc -->
+
+
+        <!-- Please do not overwrite the API key used in build server AIzaSyBr_gcGMHn3oIUv1MCo4j-k-PD2QhvLyAc -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBr_gcGMHn3oIUv1MCo4j-k-PD2QhvLyAc" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".view.activity.MainActivity"
+            android:configChanges="locale|layoutDirection"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".view.activity.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.activity.LocationActivity"
+            android:theme="@style/MyMaterialTheme" >
+        </activity>
+        <activity
+            android:name=".view.activity.SelectNetworkActivity"
+            android:label="@string/title_activity_select_network" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".view.activity.CameraActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" >
+        </activity>
+
+        <receiver
+            android:name="com.delta.smsandroidproject.receiver.ActionReceiver"
+            android:enabled="true"
+            android:exported="true" >
+        </receiver>
+    </application>
+
+</manifest>

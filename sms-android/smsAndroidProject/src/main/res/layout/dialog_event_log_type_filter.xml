@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white_delta"
+              android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/c_00adef"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/filt_title"
+            android:textColor="@color/c_ffffff"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        style="@style/filter_view"
+        android:layout_width="match_parent"
+        >
+
+
+        <CheckBox
+            android:id="@+id/radio0"
+            style="@style/filter_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:drawableRight="@drawable/selector_check_box"
+            android:text="@string/filt_emergency"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/filter_view"
+        android:layout_width="match_parent"
+        >
+
+
+        <CheckBox
+            android:id="@+id/radio1"
+            style="@style/filter_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableRight="@drawable/selector_check_box"
+            android:text="@string/filt_fault"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/filter_view"
+        android:layout_width="match_parent"
+        >
+
+
+        <CheckBox
+            android:id="@+id/radio2"
+            style="@style/filter_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableRight="@drawable/selector_check_box"
+            android:text="@string/filt_warning"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/filter_view"
+        android:layout_width="match_parent"
+        >
+
+
+        <CheckBox
+            android:id="@+id/radio3"
+            style="@style/filter_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableRight="@drawable/selector_check_box"
+            android:text="@string/filt_info"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/filter_view"
+        android:layout_width="match_parent"
+        >
+
+
+        <CheckBox
+            android:id="@+id/radio4"
+            style="@style/filter_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableRight="@drawable/selector_check_box"
+            android:text="@string/filt_config"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/filter_view"
+        android:layout_width="match_parent"
+        >
+
+
+        <CheckBox
+            android:id="@+id/radio5"
+            style="@style/filter_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableRight="@drawable/selector_check_box"
+            android:text="@string/filt_charger"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txOk"
+        android:layout_width="@dimen/dialog_event_log_oderby_padding_80dp"
+        android:layout_height="@dimen/dialog_event_log_oderby_padding_30dp"
+        android:layout_gravity="center"
+        android:background="@color/white_delta"
+        android:gravity="center"
+        android:text="@string/_ok"
+        android:textColor="@color/blue_delta"
+        android:textSize="@dimen/dimen_1080_20sp"
+        />
+
+</LinearLayout>
